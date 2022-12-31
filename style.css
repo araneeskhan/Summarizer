@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+body{
+    
+    /* overflow-x: hidden; */
+}
+
+.main-width{
+    width: 880px;
+    max-width: 100%;
+}
+
+.hero{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: azure;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+header{
+    padding: 40px 0 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+nav .hamb span:nth-child(2){
+    margin: 7px 0px;
+}
+
+nav .nav-list{
+    padding-right: 155px;
+    list-style: none;
+}
+
+nav .nav-list li{
+    display: inline-block;
+}
+
+nav .nav-list li a{
+    display: inline-block;
+    color: darkcyan;
+    margin-left: 55px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+nav .nav-list li:not(:last-child) a:hover{
+
+    color: #80c4ff;
+    transition: .4s;
+
+}
+
+nav .nav-list li.btn a{
+    display: inline-block;
+    background: transparent;
+    border: 2px solid darkcyan;
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 1.3;
+    color: darkcyan;
+    font-weight: 500;
+}
+
+nav .nav-list li.btn:hover a{
+    background: darkcyan;
+}
+
+.container{
+    padding-top: 100px;
+
+}
+.container .hero-text{
+    margin-bottom: 140px;
+    padding-left: 600px;
+}
+
+.container .hero-text h1{
+    padding-left: 750px;
+    color: #ffffff;
+    font-size: 47px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 0px 0 px 0 px;
+}
+span{
+   
+    color: darkcyan;
+}
+
+.container .hero-text p{
+
+    padding-left: 600px;
+    color: rgb(255, 255, 255);
+    width: 1440px;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.social a{
+    
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 37px;
+    color: darkcyan;
+    cursor: pointer;
+    margin-right: 120px;
+    margin-bottom: 35px;
+
+}
+
+.container .hero-text button{
+    color: rgb(244, 244, 244);
+    background-color: darkcyan;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 18px 130px;
+    border: 2px solid ;
+    border-radius: 30px;
+    cursor: pointer;
+     
+}
+.container .hero-text button:hover{
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    color: #ffffff;
+    transition: .4s;
+}
+
+.bottom{
+    margin-top: 243px;
+    padding-bottom: 40px;
+    
+}
+.bottom p{
+    color: darkcyan;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding-left: 700px;
+
+}
+
+.head{
+    font-size: 47px;
+    font-weight: 900;
+    padding-left: 700px;
+    color: darkcyan;
+}
+
+.container .col{
+
+    width: 100px;
+    height: 300px;
+    background-color:#3E2763;
+    float: right;
+    border: 2px solid black;
+    padding-left: 650px;
+    margin: 50px;
+    border-radius: 18px;
+
+}
+
