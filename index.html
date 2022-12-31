@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text Summarizer</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="/static/css/jquery-ui.min.css" rel="stylesheet">
+
+</head>
+<body>  
+
+    <section class="hero">
+        <div>
+            <header>
+            
+                </div>
+            <nav>
+                <div class="hamb">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <ul class="nav-list">
+
+                    <li><a href="#">Home
+                        <a href="http://127.0.0.1:5500/Login/login.html">Sign out</a>
+                    </a></li>
+
+                    <li class="btn"><a href="http://127.0.0.1:5500/Help%20and%20support/form.html">Help and Support</a></li>
+                </ul>
+            </nav>
+
+            
+            </header>
+
+
+            <h1 class="head"> Summarizer </h1>
+
+
+            
+            <div class="container">
+
+                
+
+                <section class="flex flex-wrap mt-20 w-full">
+                    <div class="w-full md:w-1/2">
+                        <form class="w-full flex flex-col md:h-screen" >
+                            <textarea style="background-color: #FFFFFF;"
+                            class="w-8/12 md:h-2/4 m-2 p-5 border-black rounded-lg border self-center justify-center"
+                                name="data" id="data" cols="30" rows="10" placeholder="  Enter Text"
+                                required="required">Enter Text to summarize</textarea>
+
+                            <div class="flex self-center">
+                                <h3>Summary Length</h3>
+                                <input type="range" class="m-2 "  min="20" max="1000" name="maxL">
+                            </div>
+
+                            <div class="flex self-center">
+                                <button class="m-1 bg-green-700 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg"
+                                    type="submit" >Submit</button>
+                                <button class="m-1 bg-green-700 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg"
+                                    type="reset">Clear</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="w-full md:w-1/2">
+                        <div class="mt-2 flex flex-col w-full md:h-screen">
+                            <textarea style="background-color: #FFFFFF;"
+                                class="w-8/12 border-green-00 rounded-lg p-5 border-black rounded-lg border self-center justify-center md:h-2/4" rows="10"
+                                cols="30" name="result" readonly placeholder="Your Summary"> Summarized Text is</textarea>
+                            <button
+                                class="m-2 bg-green-700 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg self-center"
+                                >Copy text</button>
+                        </div>
+                    </div>
+                </section>
+
+
+                <div class="hero-text">
+         
+                    <h1><span>  </span></h1>
+                    
+                    
+                        <div class="social">
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://www.snapchat.com/"><i class="fa-brands fa-snapchat"></i></a>
+                        
+                        </div>
+
+                      
+                        <button type="button">More About Summarizer</button>
+                </div>
+
+                <div class="bottom">
+                    <p>ⓒ 2022 - All Rights Reserved.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
